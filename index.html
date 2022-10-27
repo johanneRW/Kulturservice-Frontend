@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kultur Service</title>
+    <script src="kulturService.js"></script>
+</head>
+<body>
+    <h1>Velkommen til KulturSerive</h1>
+    <p>Sign-up</p>
+<form onsubmit="signup(event)">
+    <input type="text" placeholder="Username" id="nameField">
+    <input type="text" placeholder="Password" id="passwordFieldSignup">
+    <input type="submit" value="Sign up">
+</form>
+<br/>
+<p>Login</p>
+<form onsubmit="login(event)">
+    <input type="text" placeholder="Username" id="usernameField">
+    <input type="text" placeholder="password" id="passwordField">
+    <input type="submit" value="Log in">
+</form>
+<br/>
+<br/>
+<p>Log ud</p>
+<form onsubmit="logout(event)">
+    <input type="submit" value="Log Out">
+</form>
+
+</body>
+</html>                                                                
