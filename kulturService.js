@@ -105,7 +105,7 @@ function getFutureEvents(event) {
                     
                 div.insertAdjacentHTML(
                     'beforeend',
-                    `<h4>`+event.bandName +'</h4> <h5>'+event.venue+': '+event.eventDate+'</h5>',
+                    `<h4>`+event.bandName +'</h4> <h5>'+event.venue.venueName+': '+event.eventDate+'</h5> <br>',
                 );
             })}
         })
